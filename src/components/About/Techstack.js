@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiNextdotjs, SiSolidity } from "react-icons/si";
-import { FaRust } from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
 import Javascript from "../../Assets/TechIcons/Javascript.svg";
 import Node from "../../Assets/TechIcons/Node.svg";
 import ReactIcon from "../../Assets/TechIcons/React.svg";
@@ -10,7 +9,6 @@ import Python from "../../Assets/TechIcons/Python.svg";
 import Typescript from "../../Assets/TechIcons/Typescript.svg";
 import Git from "../../Assets/TechIcons/Git.svg";
 import Docker from "../../Assets/TechIcons/Docker.svg";
-import Mongo from "../../Assets/TechIcons/Mongo.svg";
 import SQL from "../../Assets/TechIcons/SQL.svg";
 import Tailwind from "../../Assets/TechIcons/Tailwind.svg";
 import Postman from "../../Assets/TechIcons/Postman.svg";
@@ -40,10 +38,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <img src={PHP} alt="php" />
         <div className="tech-icons-text">php</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Mongo} alt="mongoDb" />
-        <div className="tech-icons-text">Mongo DB</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs fontSize={"24px"} />

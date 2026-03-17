@@ -61,7 +61,7 @@ function Home() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Mateehomps"
+                  href="https://github.com/MateoHomps"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -81,7 +81,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/mateo-homps-4a02b6228/"
+                  href="https://www.linkedin.com/in/mateo-homps-b38b793b6/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

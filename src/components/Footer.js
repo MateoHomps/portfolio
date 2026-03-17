@@ -9,7 +9,6 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
-  let year = date.getFullYear();
   return (
     <Container fluid className="footer">
       <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -17,7 +16,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/Mateehomps"
+                href="https://github.com/MateoHomps"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -37,7 +36,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/mateo-homps-4a02b6228/"
+                href="https://www.linkedin.com/in/mateo-homps-b38b793b6/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
