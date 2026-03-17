@@ -14,7 +14,7 @@ function AboutCard() {
             I’m currently working as a{" "}
             <span className="purple">Bartender</span> while{" "}
             completing my{" "}
-            <span className="purple"> Application Development degree  Frontend Developer</span>{" "}
+            <span className="purple"> Associate Degree in Software Development</span>{" "}
             and building experience as a{" "}
             <span className="purple"> Frontend Developer</span>.
             <br />
