@@ -40,10 +40,6 @@ function Techstack() {
         <div className="tech-icons-text">php</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs fontSize={"24px"} />
-        <div className="tech-icons-text">Next.js</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <img src={Git} alt="git" />
         <div className="tech-icons-text">Git</div>
       </Col>
