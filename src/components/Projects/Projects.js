@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import cardioVet from "../../Assets/Projects/CardioVet.png";
+import valcade from "../../Assets/Projects/ValCade.png";
 
 function Projects() {
   return (
@@ -30,6 +31,16 @@ The design focus was eliminating friction in a high-concentration clinical conte
 with a distinctive visual identity — far from generic hospital aesthetics or SaaS dashboard design — and WCAG AA accessibility.
 Stack: Electron, vanilla JavaScript, jsPDF."
               ghLink="https://github.com/MateoHomps/CardioVet"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={valcade}
+              isBlog={false}
+              title="VALCADE"
+              description="VALCADE — A VLR.gg-style Valorant esports landing page with a hand-crafted 16-bit pixel-art aesthetic. Features a live match scoreboard hero, a hand-built 3D coverflow team carousel with drag/keyboard/scroll support, results/live/upcoming match feeds, and per-team pages with rosters, stats, and match history. Built with React, Vite, and CSS Modules — no UI libraries, no backend, fully responsive down to 360px."
+              ghLink="https://github.com/MateoHomps/VALCADE"
             />
           </Col>
         </Row>
